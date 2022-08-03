@@ -29,7 +29,7 @@ You will need to install the libraries before starting the assistant
 You will also need a token to run your bot
 
 ## Usege :information_source:
-The token can be obtained in the community settings, you can also log in through your profile. Insert the token into the config file.
+The token can be obtained in the community settings, you can also log in through your profile. Insert the token into the config.py file.
 
     TOKEN = ''
 To send notifications to admins, use their id
