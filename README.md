@@ -24,7 +24,7 @@ If you are cloning a project, run it first, otherwise you can download the sourc
     
 You will need to install the libraries before starting the assistant
 
-    pip install aiogram
+    pip install telebot
     
 You will also need a token to run your bot
 
@@ -32,13 +32,10 @@ You will also need a token to run your bot
 The token can be obtained in the community settings, you can also log in through your profile. Insert the token into the config file.
 
     TOKEN = ''
-To send notifications to admins, use their id
-
-    admin_id = ''
 
 Write the command in the terminal:
 
-    python main.py
+    python tele_bot.py
 
 About the code:
 - The file words.py contains prepared messages
