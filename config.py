@@ -1,5 +1,1 @@
-TOKEN = ''
-
-admin_id = ''  # Илья
-admin_id_1 = ''  # Алексей
-admin_id_2 = ''  # Максим
+TOKEN = '5382329670:AAGxPXJa3Q7a68ss6DaRedWZ3Y0E3RrV59A'
