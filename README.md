@@ -24,21 +24,8 @@ If you are cloning a project, run it first, otherwise you can download the sourc
     
 You will need to install the libraries before starting the assistant
 
-    pip install aiogram
+    pip install telebot
     
 You will also need a token to run your bot
-
-## Usege :information_source:
-The token can be obtained in the community settings, you can also log in through your profile. Insert the token into the config.py file.
-
-    TOKEN = ''
-
-Write the command in the terminal:
-
-    python tele_bot.py
-
-About the code:
-- The file words.py contains prepared messages
-- The file config.py contains login information
 
 Hope this code helps you :crown:
