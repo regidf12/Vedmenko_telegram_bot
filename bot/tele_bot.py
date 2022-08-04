@@ -32,8 +32,7 @@ bot = telebot.TeleBot(token=TOKEN, threaded=False)
 
 def echo(message, username):
     if message.sticker:
-        _bot_send_message_with_retry(message.chat.id, message.sticker.file_id,
-                                     reply_to_message_id=message.message_id)
+        bot.send_sticker(message.chat.id, "CAACAgIAAxkBAAIEIWLsLV0pWA_sL8ZHpsPE6JIQQnM-AAK8GQACnX5gSypUlj4bLhX1KQQ")
     else:
         answer = f'Мне не понятно это сообщение: {message.text}, {username}?'
         _bot_send_message_with_retry(message.chat.id, answer,
