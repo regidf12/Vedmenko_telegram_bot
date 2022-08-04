@@ -1,23 +1,44 @@
-# Cloud Telegram Bot
+# Welcome to White-prince :crown:
 
--1. Find @BotFather in Telegram and send them "/newbot" and name of your new bot after that
+[![White-prince](https://github.com/White-prince/White-prince/blob/main/assets/White-prince_01.jpg?raw=true)](https://white-prince.github.io/Homepage/)
 
-0. Remember token of your bot
-1. Download this repo as ZIP
-2. Unpack
-3. Go inside "cloud-telegram-bot-master", select all files and folders inside and archive. 
-It will help to avoid python package names limitations.
-4. Go to https://my.selectel.ru -> Cloud Platform -> Functions, tap "Create function"
-5. Upload ZIP file 
-6. Set "Path to the file" to "bot/tele_bot"
-7. Set "Function to execute" to "main"
-8. Add item to "Environment variables", name it "TOKEN" and insert token of your bot as value.
-9. Click "Save and deploy"
-10. Mark "HTTP-request" as public
-11. Find @SelectelServerless_bot in Telegram (it has exactly same code which you see in github)
-12. To register webhook on your cloud function, send them `/setwebhook <you bot token> <public URL of your function>`
-13. After that `/getwebhook <you bot token>`. Here you can see status of how Telegram connects with your cloud function
+You can follow me on my social networks:
 
-Done. Your bot will receive messages and answer to you.
+[![Twitter](https://img.shields.io/badge/-Twitter-131313?style=for-the-badge&logo=Twitter)](https://twitter.com/White_prince_0)
 
-P.S.: Send sticker to the bot to get a code to use in your bot.
+[![Instagram](https://img.shields.io/badge/-Instagram-131313?style=for-the-badge&logo=Instagram)](https://www.instagram.com/0xe_white_prince_ex0/)
+
+[![Telegram](https://img.shields.io/badge/-Telegram-131313?style=for-the-badge&logo=Telegram)](https://t.me/Dark_Hub_info)
+
+[![VK](https://img.shields.io/badge/-VK-131313?style=for-the-badge&logo=VK)](https://vk.com/id333667069)
+
+[![Facebook](https://img.shields.io/badge/-Facebook-131313?style=for-the-badge&logo=Facebook)](https://www.facebook.com/profile.php?id=100023988285502)
+
+# White-prince Telegram_bot :robot:
+The bot facilitates the work of Vedmenko production employees.
+
+## Installation :gear:
+If you are cloning a project, run it first, otherwise you can download the source on the release page and skip this step.
+
+    git clone https://github.com/White-prince/Vedmenko_telegram_bot.git
+    
+You will need to install the libraries before starting the assistant
+
+    pip install aiogram
+    
+You will also need a token to run your bot
+
+## Usege :information_source:
+The token can be obtained in the community settings, you can also log in through your profile. Insert the token into the config.py file.
+
+    TOKEN = ''
+
+Write the command in the terminal:
+
+    python tele_bot.py
+
+About the code:
+- The file words.py contains prepared messages
+- The file config.py contains login information
+
+Hope this code helps you :crown:
