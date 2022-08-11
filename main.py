@@ -97,6 +97,9 @@ async def menu(message: types.Message):
                                                 "больше информации о нас.", reply_markup=kb_site)
     elif message.text == 'Поддержать разработчика':
         await bot.send_message(message.chat.id, "В данный момент оплата Юкасса не поддерживает оплату telegram")
+        await bot.send_message(message.chat.id, "Реквезиты для перевода:\n"
+                                                "Tinkoff, ВТБ, Сбер: "
+                                                "+7-925-413-56-61")
     elif message.text == 'Сообщить об ошибке':
         await bot.send_message(message.chat.id, "Заметили ошибку? Cообщите о ней разработчику <3",
                                reply_markup=kb_error)
