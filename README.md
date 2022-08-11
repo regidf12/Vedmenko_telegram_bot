@@ -32,7 +32,7 @@ You will also need a token to run your bot
 
 ## Usege :information_source:
 
-The token can be received in telegram from the bot: [@Botfather](https://t.me/BotFather).
+The token can be received in telegram from the bot: [@Botfather](https://t.me/BotFather). You can also get a token for payment according to his instructions..
 
     TOKEN = ''
     
