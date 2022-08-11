@@ -14,31 +14,44 @@ You can follow me on my social networks:
 
 [![Facebook](https://img.shields.io/badge/-Facebook-131313?style=for-the-badge&logo=Facebook)](https://www.facebook.com/profile.php?id=100023988285502)
 
-# White-prince Telegram_bot :robot:
+# White-prince Vkontakte_bot :robot:
+
 The bot facilitates the work of Vedmenko production employees.
 
 ## Installation :gear:
+
 If you are cloning a project, run it first, otherwise you can download the source on the release page and skip this step.
 
     git clone https://github.com/White-prince/Vedmenko_telegram_bot.git
     
 You will need to install the libraries before starting the assistant
 
-    pip install aiogram
+    pip install vk_api
     
 You will also need a token to run your bot
 
 ## Usege :information_source:
-The token can be obtained in the community settings, you can also log in through your profile. Insert the token into the config.py file.
+
+The token can be received in telegram from the bot: ![@Botfather](https://t.me/BotFather).
 
     TOKEN = ''
+    
+
+    PMTOKEN = ''
 
 Write the command in the terminal:
 
-    python tele_bot.py
+    python main.py
 
-About the code:
-- The file words.py contains prepared messages
-- The file config.py contains login information
+## About the code :electron:
+
+- The file message.py contains login information
+
+Running code :
+    
+    if __name__ == '__main__':
+        executor.start_polling(dp, loop=loop)
+ 
+All other features are pretty standard.
 
 Hope this code helps you :crown:
