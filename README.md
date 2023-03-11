@@ -1,5 +1,7 @@
 # Welcome to Dive-into-dev  :minidisc:
 
+[![White-prince](https://github.com/Dive-dev/Dive-dev/blob/main/assets/VKHeader2.png?raw=true)](http://white-prince.ru/)
+
 You can follow me on my social networks:
 
 [![Twitter](https://img.shields.io/badge/-Twitter-131313?style=for-the-badge&logo=Twitter)](https://twitter.com/White_prince_0)
