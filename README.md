@@ -1,6 +1,6 @@
 # Welcome to Dive-into-dev  :minidisc:
 
-[![White-prince](https://github.com/Dive-dev/Dive-dev/blob/main/assets/VKHeader2.png?raw=true)](http://white-prince.ru/)
+[![Dive-into-dev](https://github.com/Dive-dev/Dive-dev/blob/main/assets/dive-into-dev.png?raw=true)]()
 
 You can follow me on my social networks:
 
