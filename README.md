@@ -37,5 +37,3 @@ Running code :
         executor.start_polling(dp, loop=loop)
  
 All other features are pretty standard.
-
-Hope this code helps you
