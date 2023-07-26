@@ -36,4 +36,4 @@ Running code :
     if __name__ == '__main__':
         executor.start_polling(dp, loop=loop)
  
-All other features are pretty standard.
+All other features are pretty standard
